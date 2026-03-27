@@ -1,0 +1,230 @@
+/* ! global  */
+
+:root {
+  --navbar-main-color: #4e4e4e;
+  --main-color: #f5f5f5;
+}
+.main-color {
+  background-color: #f5f5f5;
+}
+.nav-color {
+  background-color: var(--navbar-main-color);
+}
+
+.repeated-title {
+  font-size: 3rem;
+}
+
+/* ! nave bar */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropend:hover .dropdown-menu {
+  display: block;
+}
+/* ! Home section */
+.home-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4)), url(../image/img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-section .home-title {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+/* ! about section */
+.about-section h3::after {
+  content: '';
+  margin-top: 2px;
+  position: absolute;
+  width: 110px;
+  height: 3px;
+  background-color: #0078ff;
+  top: 100%;
+  left: 0;
+}
+.about-section p {
+  line-height: 30px;
+
+  font-weight: bold;
+}
+.about-section p:last-child {
+  margin-bottom: 68px;
+}
+.about-container {
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.06),
+    0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.progress .progress-bar {
+  background-color: #0078ff;
+}
+/* ! Services section */
+.repeated-text::after {
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-top: 5px;
+}
+
+.card-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border: 10px solid #0078ff;
+}
+
+.Services-Section .card:hover .card-icon {
+  background-color: #0078ff;
+  border: 10px solid rgba(0, 0, 0, 0.438);
+}
+
+.Services-Section .card:hover .card-icon i {
+  color: white;
+}
+/* ! sub section#1*/
+.sub-section {
+  /* height: 25vh; */
+
+  background-image:
+    linear-gradient(rgba(4, 88, 183, 0.79)), url(../image/img/post-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sub-section-style {
+  width: 85px;
+  height: 85px;
+  border: 10px solid white;
+}
+/* ! sub Portfolio || Work  */
+
+.work-section .card {
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.06),
+    0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.card-buttom {
+  height: 50px;
+  width: 50px;
+}
+.work-section .card img {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.work-section .card:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+/* ! sub section#2 */
+.sub-section-2 {
+  background-image:
+    linear-gradient(rgba(5, 99, 206, 0.114)), url(../image/img/overlay-bg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.item .image {
+  width: 100px;
+  height: 100px;
+}
+.item .image .img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: -55px;
+}
+.carousel-indicators [data-bs-target] {
+  margin-inline: 8px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* ! Work Section*/
+
+.blog-section .card-title {
+  color: black;
+  font-size: 15px;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+}
+.blog-section .card-title:hover {
+  color: #0078ff;
+}
+
+.blog-icon-img {
+  height: 50px;
+  width: 50px;
+}
+.blog-section-main-image::after {
+  content: 'Travel';
+  width: 90px;
+  height: 35px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* ! Contact Section*/
+.contact-info .contact-item {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #0078ff;
+}
+.contact-container {
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.06),
+    0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.contact-section {
+  background-image:
+    linear-gradient(rgba(4, 88, 183, 0.879)), url(../image/img/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ! footer */
+.footer {
+  height: 10vh;
+}
